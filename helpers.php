@@ -144,10 +144,16 @@ function include_template($name, array $data = [])
     return $result;
 }
 
+/**
+ * Форматирует цену
+ * @param int $number Цена товара
+ * @return string Строка с отформатированной ценой
+ */
+
 function format_price(int $number): string
 {
     if ($number > 1000) {
-        $number = number_format($number, 0, '', ' ');
+        $number = number_format($number, 0, ',', ' ');
     }
     return "$number ₽";
 }

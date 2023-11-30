@@ -48,8 +48,9 @@ $lots = [
         'price' => 5400,
         'url_img' => 'img/lot-6.jpg'
     ],
-]
+];
 ?>
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
