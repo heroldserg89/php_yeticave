@@ -1,0 +1,6 @@
+/vendor/
+/defaults/
+/.phpsandbox/
+/.home/
+.en
+composer.lock
